@@ -9,6 +9,10 @@ export function Sidebar() {
         className={styles.cover}
       />
       <div className={styles.profile}>
+        <img
+          className={styles.avatar}
+          src="https://avatars.githubusercontent.com/u/34436443?v=4"
+        />
         <strong>Kleyson Castro</strong>
         <span>Developer/Hardware</span>
 
