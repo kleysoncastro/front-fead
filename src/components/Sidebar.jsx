@@ -1,5 +1,5 @@
 import styles from "./Sidebar.module.css";
-import imagem_logo from "../assets/header-logo.svg";
+import { PencilLine } from "phosphor-react";
 
 export function Sidebar() {
   return (
@@ -17,7 +17,10 @@ export function Sidebar() {
         <span>Developer/Hardware</span>
 
         <footer>
-          <a href="#">Editar Perfil</a>
+          <a href="#">
+            <PencilLine size={20} />
+            Editar Perfil
+          </a>
         </footer>
       </div>
     </aside>
